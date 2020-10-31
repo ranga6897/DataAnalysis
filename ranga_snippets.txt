@@ -1,0 +1,87 @@
+def check_multicolinearity(data_x):
+    corr = data_x.corr()
+    corr = pd.DataFrame(np.tril(corr, k =-1),
+                       columns = data_x.columns,
+                       index = data_x.columns)
+    
+    corr = corr.replace(0.000000,np.NAN)
+    count_of_total_correlation_values = corr.count().sum()
+    
+    
+    for i in [0.5,0.6,0.7,0.8,0.9]:
+        data_corr = corr[abs(corr) > i]
+        count_greater_than_thresh = data_corr.count().sum()
+        print(f'Percent Values Greater than {i} co-relation : {count_greater_than_thresh*100/count_of_total_correlation_values}')
+        
+        
+    return  corr
+
+
+def plot_corr(threshold, corr):
+    data_corr = corr[abs(corr) > threshold]
+    sns.heatmap(data_corr, annot = True)
+    plt.show()
+
+
+corr = check_multicolinearity(data_std)
+plot_corr(0.5, corr)
+
+
+======================================================================================================================================
+
+markers = ['o','x','>','^']*4
+
+for index,col in enumerate(centroid_df.columns):  #chng
+    plt.scatter(y = [0,1],    # chng
+                x = centroid_df[col],
+               label = col,marker = markers[index],s = 100)
+    if (index+1)%4 == 0:
+        plt.yticks([0,1])   # chng
+        plt.xticks(np.arange(-1,1,step = 0.1))
+        plt.ylabel('cluster')
+        plt.legend()
+        plt.show()
+
+
+
+==================================================================================
+from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster.hierarchy import cophenet,dendrogram,linkage
+from scipy.spatial.distance import pdist
+
+
+def find_best_linkage(data_,plot = False):
+    linkage_methods = ['complete','single','average','ward','centroid']
+    cophenet_index = []
+    
+    for linkage_method in linkage_methods:
+        z = linkage(data_, method = linkage_method)
+        cop_index, coph_dists = cophenet(z, pdist(data_))
+        cophenet_index.append(cop_index)
+        
+    if plot:
+        sns.scatterplot(y = linkage_methods, x = cophenet_index)
+        plt.xticks(np.arange(0,1,step = 0.1))
+
+        plt.show()
+        
+    print(f'Best Linkage Method for the given data is : {linkage_methods[np.argmax(cophenet_index)]}')
+
+
+find_best_linkage(df_pca,True)
+
+ -------------------------------------------------------------------
+
+def plot_dendogram(data,distance_threshold ,linkage_method = 'centroid', p=5):  #chng
+    plt.figure(figsize = (30,20))
+    plt.title('Agglomerative Hirearchiacal Clustering Dendogram')
+    plt.xlabel('sample index')
+    plt.ylabel('Distance')
+    
+    z = linkage(data,linkage_method)
+    dendrogram(z, leaf_rotation = 90, color_threshold = distance_threshold,
+             leaf_font_size = 10, truncate_mode = 'level',p=p)
+    
+    plt.tight_layout()
+
+plot_dendogram(data_pca,distance_threshold=10)
