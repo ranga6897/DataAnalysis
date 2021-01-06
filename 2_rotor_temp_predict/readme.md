@@ -8,7 +8,7 @@ Because the orginal file size is 300 mb and does not load in github.
 To build a model that predicts the rotor temperature.
 
 **Data** :                   
-Data is taken [kaggle](https://www.kaggle.com/wkirgsn/electric-motor-temperature), Data is anonymized.
+Data is taken from [kaggle](https://www.kaggle.com/wkirgsn/electric-motor-temperature), Data is anonymized.
 
 **Work Done** :
 1. EDA - checked the attributes to different test cases
