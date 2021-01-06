@@ -38,4 +38,4 @@ As the given data is anonymized and we have 57 test_cases, We can find similar t
    * Tuning Hyper parameters for RF
    * Checking tree graph of DT to understand on what factors it's predicting.      
    
-3. Build a web app using Stramlit.
+3. Build a web app using Streamlit.
