@@ -15,7 +15,7 @@ Data is taken [kaggle](https://www.kaggle.com/wkirgsn/electric-motor-temperature
 | model |mse|splits|
 
 |---|---|---|
-|Stats OLS | 0.225 | 0
+|Stats OLS | 0.225 | 0 |
 | LinearReg  | 0.475260(+- 0.000616) |3 |
 |RandomForest | 0.033642(+- 0.001383) |3 |
 |AdaBoost LinearReg as base | 0.500461(+- 0.010645) |3 |
