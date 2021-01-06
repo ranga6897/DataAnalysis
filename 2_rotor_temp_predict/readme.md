@@ -12,9 +12,9 @@ Data is taken [kaggle](https://www.kaggle.com/wkirgsn/electric-motor-temperature
 1. EDA - checked the attributes to different test cases
 2. Feature Selection - Using KBeast, Pearson correlation coefficient and Bartlett variance test.
 3. Model Building :
-| model |mse|splits|
 
-|---|---|---|
+| Model | Mse |Splits|
+|------|------|------|
 |Stats OLS | 0.225 | 0 |
 | LinearReg  | 0.475260(+- 0.000616) |3 |
 |RandomForest | 0.033642(+- 0.001383) |3 |
