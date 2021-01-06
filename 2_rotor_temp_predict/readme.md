@@ -1,7 +1,7 @@
 The file your watching has small trick in it, instead of loading the images from notebook excuted, i used saved images which don't have javascript functionality in plolty plots.        
 Because the orginal file size is 300 mb and does not load in github. 
 [original files](https://drive.google.com/drive/folders/1DypfDOYXhSY6vpila0H_pJrOo5DVD5ri?usp=sharing)
-
+---
 **Objective** :                  
 To build a model that predicts the rotor temperature.
 
