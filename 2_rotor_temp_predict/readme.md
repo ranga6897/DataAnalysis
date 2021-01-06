@@ -25,7 +25,7 @@ Data is taken [kaggle](https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
 * The Best model is KNeighborsRegressor with parameters : Metric = Euclidean, n_neighbours = 2, weights = distance.
    
-
+----
 
 **Work can be done**:
 
@@ -34,4 +34,6 @@ As the given data is anonymized and we have 57 test_cases, We can find similar t
 
 2.Model :                   
    * Tuning Hyper parameters for RF
-   * Checking tree graph of DT to understand on what factors it's predicting.
+   * Checking tree graph of DT to understand on what factors it's predicting.      
+   
+3. Build a web app using Stramlit.
