@@ -1,3 +1,41 @@
+**Objective** :                  
+To build a model that classifies different crops based on soil nutrient levels and weather.
+
+**Data** :                   
+Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset).
+
+**Work Done** :
+1. EDA - checked the rangees of different crops.
+2. Feature Selection - Using KBeast, Pearson correlation coefficient.
+3. Model Building :
+| Model |Test Weighted F1 |Test accuracy|
+|------|------|------|
+| LogisticRegression  | 0.97 | 0.97 |
+|DecisionTree Classifier | 0.99 | 0.99 |
+|RandomForest Classifier | 0.99 |0.99 |
+
+4. Interactive Widget to check DecisionTree
+
+5. Built a Streamlit Web app
+  > To run the web app use   ```streamlit run crop.py``` in cmd.
+  - To have a quick view, you can watch below video.
+
+<!-- 
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" >
+    <source src="web_app_demo.mp4" type="video/mp4">
+<!--     <source src="path/to/video.ogg" type="video/ogg"> -->
+<!--     <source src="path/to/video.webm" type="video/webm"> -->
+  </video>
+</figure>
+<!-- blank line --> 
+
+
+
+
+#Content used in app
+
 ## Nitrogen
 #### Importance:
 - Nitrogen is a major component of chlorophyll (the compound by which plants use sunlight energy to produce sugars from water and carbon dioxide (i.e., **photosynthesis**)).
