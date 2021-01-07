@@ -21,21 +21,11 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
   > To run the web app use   ```streamlit run crop.py``` in cmd.
   - To have a quick view, you can watch below video.
 
-<!-- 
-<!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" >
-    <source src="./web_app_demo.mp4" type="video/mp4">
-<!--     <source src="path/to/video.ogg" type="video/ogg"> -->
-<!--     <source src="path/to/video.webm" type="video/webm"> -->
-  </video>
-</figure>
-<!-- blank line --> 
+![crop recomendation app](./web_app_demo.gif)
 
 
 
-
-#Content used in app
+# Content used in app
 
 ## Nitrogen
 #### Importance:
@@ -58,7 +48,7 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
         - Diammonium phosphate or DAP (18% N; 44−46% P2O5).
 
 
----
+
 
 
 ## Potasium
@@ -71,7 +61,7 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 - Potassium is mined in Russia, Canada, Germany, Israel, France and the USA.
 - All **animal manures** and most **plant residues** are good potassium fertilizers. Hay and straw are representative of such plant residues. **Cocoa shells**, commonly available commercially for use as a mulch, supply a significant amount of potassium.
 
----
+
 
 ## Phosphorus
 #### Importance:
