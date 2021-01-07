@@ -8,9 +8,10 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 1. EDA - checked the rangees of different crops.
 2. Feature Selection - Using KBeast, Pearson correlation coefficient.
 3. Model Building :
+
 | Model |Test Weighted F1 |Test accuracy|
 |------|------|------|
-| LogisticRegression  | 0.97 | 0.97 |
+|LogisticRegression  | 0.97 | 0.97 |
 |DecisionTree Classifier | 0.99 | 0.99 |
 |RandomForest Classifier | 0.99 |0.99 |
 
@@ -24,7 +25,7 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 <!-- blank line -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" >
-    <source src="web_app_demo.mp4" type="video/mp4">
+    <source src="./web_app_demo.mp4" type="video/mp4">
 <!--     <source src="path/to/video.ogg" type="video/ogg"> -->
 <!--     <source src="path/to/video.webm" type="video/webm"> -->
   </video>
