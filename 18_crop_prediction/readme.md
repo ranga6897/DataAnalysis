@@ -1,5 +1,5 @@
 **Objective** :                  
-To build a model that classifies different crops based on soil nutrient levels and weather.
+To build a model that Recommends the crop based on soil nutrient levels and weather.
 
 **Data** :                   
 Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset).
