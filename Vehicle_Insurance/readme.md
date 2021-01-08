@@ -23,3 +23,7 @@ Data is taken from [kaggle](https://www.kaggle.com/anmolkumar/health-insurance-c
 ### Region Wise Policy sales via channels and their Premiums.
 
 ![region](https://github.com/ranga6897/DataAnalysis/blob/master/Vehicle_Insurance/Region_and_Policy_channel%20(2).png)
+
+##
+### Response(Purchasing Policy) ratios based on Vehicle Age and Damage.
+![age](age_damage.png)
