@@ -6,7 +6,7 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 
 ## Work Done :
 1. EDA - checked the rangees of different crops.
-2. Feature Selection - Using KBeast, Pearson correlation coefficient.
+2. Feature Selection - Using SelectKBest, Pearson correlation coefficient.
 3. Model Building :
 
 | Model |Test Weighted F1 |Test accuracy|
@@ -17,7 +17,7 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 
 4. Interactive Widget to check DecisionTree
 
-5. Built a Streamlit Web app
+5. Built a Streamlit Web app that predicts the crop based on our input.
   > To run the web app use   ```streamlit run crop.py``` in cmd.
   - To have a quick view, you can watch below video.
 
