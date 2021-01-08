@@ -1,10 +1,10 @@
-**Objective** :                  
+## Objective :                  
 To build a model that Recommends the crop based on soil nutrient levels and weather.
 
-**Data** :                   
+## Data :                   
 Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset).
 
-**Work Done** :
+## Work Done :
 1. EDA - checked the rangees of different crops.
 2. Feature Selection - Using KBeast, Pearson correlation coefficient.
 3. Model Building :
@@ -23,9 +23,9 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 
 ![crop recomendation app](./web_app_demo.gif)
 
+---
 
-
-# Content used in app
+## Content used in app
 
 ## Nitrogen
 #### Importance:
