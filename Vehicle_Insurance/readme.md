@@ -21,4 +21,5 @@ Data is taken from [kaggle](https://www.kaggle.com/anmolkumar/health-insurance-c
 
 ## Dashboards:
 ### Region Wise Policy sales via channels and their Premiums.
+
 ![region](./Region_and_Policy_channel(2).png)
