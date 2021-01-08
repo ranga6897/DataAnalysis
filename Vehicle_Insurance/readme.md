@@ -1,5 +1,5 @@
 ## Objective :                  
-To build a model that Recommends the ppl who take Vehicle Insurance with Health Insurance.
+To build a model that Recommends the clients who purchase Vehicle Insurance with Health Insurance.
 
 ## Data :                   
 Data is taken from [kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction?select=train.csv).
