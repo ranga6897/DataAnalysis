@@ -1,11 +1,11 @@
-### Objective :                  
+## Objective :                  
 To build a model that predicts the price of used cars.
 
-### Data :                   
+## Data :                   
 Data is taken from [kaggle](https://www.kaggle.com/doaaalsenani/usa-cers-dataset).
 
 
-### Work Done :
+## Work Done :
 1. Pre-Processing 
     - Formatting data in columns, deleting unique cols, replacing values with least value_counts to others.
 2. Outliers:
