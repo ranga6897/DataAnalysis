@@ -18,10 +18,9 @@ Data is taken from [kaggle](https://www.kaggle.com/atharvaingle/crop-recommendat
 4. Interactive Widget to check DecisionTree
 
 5. Built a Streamlit Web app that predicts the crop based on our input.
+   [link to streamlit application](https://share.streamlit.io/ranga6897/crop_recomendation/main/crop.py)
   > To run the web app use   ```streamlit run crop.py``` in cmd.
-  - To have a quick view, you can watch below video.
 
-![crop recomendation app](./web_app_demo.gif)
 
 ---
 
